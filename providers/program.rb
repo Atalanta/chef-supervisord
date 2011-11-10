@@ -6,5 +6,7 @@ action :supervise do
     group "root"
     mode "0644"
     variables :program => new_resource
+
+    notifies :restart, resources(:service => "supervisor")
   end
 end

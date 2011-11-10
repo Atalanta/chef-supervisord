@@ -1,2 +1,10 @@
-[program: <%= @program.name %>]
-command = <%= @program.command %>
+[program:<%= @program.name %>]
+command=<%= @program.command %>
+autostart=<%= @program.autostart %>
+autorestart=<%= @program.autorestart %>
+<% if @program.directory -%>
+directory=<%= @program.directory %>
+<% end -%>
+<% if @program.user -%>
+user=<%= @program.user %>
+<% end -%>

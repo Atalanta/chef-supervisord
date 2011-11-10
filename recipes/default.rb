@@ -27,7 +27,7 @@ cookbook_file "/etc/supervisor/supervisord.conf" do
 end
 
 service "supervisor" do
-  supports :status => true, :restart => true, :reload => true
+  supports :status => true, :restart => false, :reload => true
   reload_command "supervisorctl update"
   action [:enable, :start]
 end
