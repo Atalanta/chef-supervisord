@@ -1,0 +1,29 @@
+{
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "description": "Installs/Configures supervisord",
+  "conflicting": {
+  },
+  "attributes": {
+  },
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "providing": {
+  },
+  "dependencies": {
+  },
+  "maintainer": "Atalanta Systems Ltd",
+  "recipes": {
+  },
+  "replacing": {
+  },
+  "platforms": {
+  },
+  "name": "supervisord",
+  "version": "0.0.1",
+  "license": "Apache 2.0",
+  "maintainer_email": "stephen@atalanta-systems.com",
+  "groupings": {
+  }
+}
